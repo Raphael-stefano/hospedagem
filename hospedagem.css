@@ -1,0 +1,248 @@
+body{
+    font-family: 'Poppins';
+}
+
+span{
+    color: #2f86d6;
+}
+
+header{
+    height: 120;
+    padding: 0 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120;
+}
+
+.logo-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 310;
+}
+
+#logo-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-texto h1{
+    margin: 0;
+}
+
+.logo-texto p{
+    color: #2f86d6;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-texto img{
+    width: 80px;
+}
+
+header nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+header nav a:hover{
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+#apresentacao{
+    display: flex;
+    background: #2f86d6;
+    padding: 80 20;
+}
+
+#apresentacao div:nth-of-type(1){
+    color: white;
+    padding: 0 80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside{
+    background: #23313e;
+    display: flex;
+    padding: 0 20;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside h2, aside p{
+    color: white;
+}
+
+aside div h2{
+    margin-bottom: 0;
+}
+
+aside div p{
+    margin-top: 5;
+    margin-bottom: 30;
+}
+
+aside a{
+    margin-left: 7;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside div:nth-of-type(2){
+    background: #2f86d6;
+    padding: 12px;
+    border-radius: 5px
+}
+
+aside:nth-of-type(2){
+    background: #2f86d6;
+    padding: 10 0;
+}
+
+aside:nth-of-type(2) div{
+    background: #23313e;
+    padding: 12px;
+    border-radius: 5px
+}
+
+#informacoes{
+    text-align: center;
+    margin: 90 0;
+    padding: 0 20;
+}
+
+#informacoes img{
+    width: 120;
+}
+
+#info-container{
+    margin-top: 60;
+    display: flex;
+}
+
+.info-container{
+    padding: 0 30;
+}
+
+main{
+    padding: 0 20;
+    background: #f2f3f7;
+    padding-top: 60;
+    padding-bottom: 60;
+    text-align: center;
+}
+
+main img{
+    width: 100;
+}
+
+main table{
+    text-align: center;
+    width: 80%;
+    margin: 40 auto 0;
+    box-shadow: 0px 0px 30px 10px #2f86d6;
+}
+
+main table td, main table th{
+    border: 1px solid #f0f0f0;
+}
+
+main table thead{
+    height: 160;
+}
+
+main table thead, main table tbody tr:nth-of-type(even){
+    background: white;
+}
+
+main table tr:nth-of-type(odd){
+    background: #f6f6f6:
+}
+
+main table th{
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+main table p{
+    color: #afaba8;
+    font-weight: normal;
+    padding: 0 15;
+    
+}
+
+main table tbody tr{
+    height: 50;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60 0 30;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

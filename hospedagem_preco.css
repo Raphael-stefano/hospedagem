@@ -1,0 +1,136 @@
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    height: 120;
+    padding: 0 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120;
+    background: #2f86d6;
+}
+
+.logo-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 310;
+}
+
+#logo-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo-texto h1{
+    margin: 0;
+}
+
+.logo-texto p{
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logo-texto img{
+    width: 80px;
+}
+
+header nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+
+main{
+    padding: 60 20;
+}
+
+main table{
+    width: 90%;
+    margin: auto;
+}
+
+main table p{
+    text-transform: uppercase;
+    font-size: 30;
+    margin-top: 0;
+}
+
+main table h1{
+    color: #a4a8a7;
+    font-size: 15;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+main table thead th:not(:nth-of-type(1)){
+    background: #f2f3f7;
+    padding: 10px;
+} 
+
+main table tbody td:nth-of-type(1){
+    background: #f2f3f7;
+}
+
+main table td{
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.bola-azul::before{
+    content: '';
+    display: inline-block;
+    background: #2f86d6;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60 0 30;
+    font-weight: bold;
+    background: #2f86d6;
+}
+
+footer p{
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
